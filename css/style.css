@@ -1,0 +1,22 @@
+body{
+  
+  padding-top: 75px;
+}
+.box-shadown{
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.05),
+  0 4px 8px 0 rgba(0, 0, 0, 0.05);
+}
+#home{
+  background: url('../img/bg-quote.jpg') center center ;
+  background-size: cover;
+}
+.pergunta{
+  border-bottom: 2px solid rgba(0, 0, 0, .06);
+}
+
+@media(max-width:750px){
+  #home p{
+    font-size: 2.2rem;
+  }
+
+}
